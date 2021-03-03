@@ -1,0 +1,51 @@
+  /* GENERALI */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+  /* GENERALI HEADER  */
+
+.container-header{
+  width: 80%;
+  height: 550px;
+  min-width: 1400px;
+  margin: auto;
+  background-color: #0C325A ;
+}
+
+  /* GENERALI MENU  */
+
+.container-header .container-menu, .logo{
+  height: 100px;
+}
+
+.container-header .container-menu{
+  background-color: aquamarine;
+  width: 100%;
+}
+
+/* LOGO  */
+
+.container-menu .logo{
+  width: 15%;
+}
+
+  /* PRIMA LISTA  */
+
+ul{
+  width: 45%;
+  height: 100px;
+}
