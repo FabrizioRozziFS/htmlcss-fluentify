@@ -28,24 +28,63 @@
 
   /* GENERALI MENU  */
 
-.container-header .container-menu, .logo{
-  height: 100px;
-}
+
 
 .container-header .container-menu{
-  background-color: aquamarine;
+  
   width: 100%;
 }
 
 /* LOGO  */
 
-.container-menu .logo{
-  width: 15%;
+.logo{
+  width: 10%;
+  margin-right: 50px;
+
 }
 
-  /* PRIMA LISTA  */
+  /* LISTE  */
 
-ul{
-  width: 45%;
-  height: 100px;
+.prima-lista, .seconda-lista{
+  list-style: none;
+  margin-top: 26px;
 }
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+ul li a{
+  line-height: 50px;
+  text-align: center;
+  color: white ;
+  text-decoration: none;
+}
+
+.prima-lista{
+  width: 50%;
+}
+
+.seconda-lista{
+  width: 33%;
+}
+
+  /* BOTTONI */
+
+.btn-green{
+  width: 30%;
+  border: 2px solid black;
+  background-color: #7CBB04;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn-white{
+  width: 20%;
+  border: 2px solid;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}  
