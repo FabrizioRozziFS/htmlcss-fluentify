@@ -18,7 +18,7 @@
 
 body{
   background-color: #0C325A ;
-  min-width: 1400px;
+  min-width: 1800px;
 }
 
 
@@ -164,28 +164,52 @@ main .uguale-footer{
   font-size: 18px;
 }
 
-  /* SEZIONE 3 CONTAINER FLOATTANTI */
+  /* SEZIONE 3 CONTAINER FLOATTANTI SUPERIORE */
 
 .contenitore{
   width: 33.3%;
-  height: 500px;
-  border: 1px solid black;
+  height: 700px;
   position: relative;
 }
   
-.primo-container .foto{
+.container-float .foto{
   position: absolute;
   width: 20%;
-  height: 20%;
+  
   left: 36%;
   top: 10%;
 }  
 
-.primo-container h1{
-  width: 60%;
+.container-float .foto2{
   position: absolute;
-  top: 50%;
-  left: 18%;
+  width: 30%;
+  left: 36%;
+  top: 10%;
+}
+
+.container-float h1{
+  width: 70%;
+  position: absolute;
+  top: 40%;
+  left: 15%;
   text-align: center;
   font-size: 30px;
+  color: #7CBB04;
+}
+
+.linea{
+  position: absolute;
+  width: 20%;
+  border-top: 1px solid black ;
+  margin: auto;
+  left: 36%;
+  top: 60%;
+}  
+
+.container-float p{
+  width: 60%;
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  font-size: 22px;
 }
