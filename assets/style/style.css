@@ -29,6 +29,7 @@ header{
 .container-section{
   width: 80%;
   margin: auto;
+  border-top: 1px solid grey;
 }
 
   /* GENERALI HEADER  */
@@ -212,4 +213,47 @@ main .uguale-footer{
   top: 70%;
   left: 20%;
   font-size: 22px;
+}
+
+  /* SEZIONE IMMAGINE CON TESTO FLOATTANTE */
+
+.foto-sinistra{
+  width: 40%;
+  margin-left: 10%;
+  margin-top: 5%;
+  padding-bottom: 40px;
+}  
+
+.testo-destra{
+  width: 35%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.testo-destra h1{
+  font-size: 40px;
+}
+
+.testo-destra p{
+  margin-top: 2%;
+}
+
+.testo-destra a{
+  margin-top: 10%;
+  color: blue;
+}
+
+  /* FOOTER  */
+
+.footer-grigio{
+  width: 100%;
+  height: 100px;
+  background-color: #D3D3D3;
+  text-align: center;
+}
+
+.titolo-sinistra{
+  line-height: 100px;
+  font-size: 25px;
+  margin-left: 15%;
 }
